@@ -2,6 +2,8 @@
 
 version=$1
 
+rm -rf git-$version
+
 tar xzvf git-$version.tar.gz
 
 cd git-$version
