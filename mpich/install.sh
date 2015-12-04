@@ -2,6 +2,8 @@
 
 version=$1
 
+rm -rf mpich-$version
+
 tar xzvf mpich-$version.tar.gz
 
 cd mpich-$version
